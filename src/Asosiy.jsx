@@ -108,30 +108,40 @@ const Asosiy = () => {
           </div>
 
           <nav className="hidden lg:flex items-center gap-8">
+            <Link to="/">
             <a
               href="#"
-              className={`hover:text-blue-600 transition-colors ${qoraTema ? "text-gray-300" : "text-gray-700"}`}
+              className={`hover:text-blue-600 transition-colors ${qoraTema ? "text-gray-500" : "text-gray-700"}`}
             >
               Asosiy
             </a>
+            </Link>
+
+            <Link to="/Kurslar">
             <a
               href="#"
               className={`hover:text-blue-600 transition-colors ${qoraTema ? "text-gray-300" : "text-gray-700"}`}
             >
               Kurslar
             </a>
+            </Link>
+            <Link to="/BizHaqimizda">
             <a
               href="#"
               className={`hover:text-blue-600 transition-colors ${qoraTema ? "text-gray-300" : "text-gray-700"}`}
             >
               Biz haqimizda
             </a>
-            <a
+            </Link>
+            
+            <Link to="/Boglanish">
+              <a
               href="#"
               className={`hover:text-blue-600 transition-colors ${qoraTema ? "text-gray-300" : "text-gray-700"}`}
             >
               Boglanish
             </a>
+            </Link>
           </nav>
 
           <div className="flex items-center gap-3">
@@ -452,7 +462,9 @@ const Asosiy = () => {
               Play Video
             </button>
             <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              <Link to="/Boglanish">
               Bog'lanish
+              </Link>
             </button>
           </div>
 
