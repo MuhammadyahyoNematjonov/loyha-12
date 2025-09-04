@@ -6,6 +6,7 @@ import Register from "./Register";
 import Kurslar from "./Kurslar";
 import BizHaqimizda from "./BizHaqimizda";
 import Boglanish from "./Boglanish";
+import MentorDashboard from "./Mentor";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/Kurslar" element={<Kurslar />} />
       <Route path="/BizHaqimizda" element={<BizHaqimizda />} />
       <Route path="/Boglanish" element={<Boglanish />} />
+      <Route path="/mentor" element={<MentorDashboard />} />
 
     </Routes>
   );

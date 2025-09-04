@@ -81,7 +81,7 @@ const BizHaqimizda = () => {
       >
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <span className="text-2xl font-bold text-blue-600">iTLive</span>
+            <span className="text-2xl font-bold text-blue-600">Book-Time</span>
             <div className="text-xs bg-blue-600 text-white px-1 rounded">®</div>
           </div>
 

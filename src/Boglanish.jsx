@@ -49,7 +49,7 @@ const Boglanish = () => {
       >
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <span className="text-2xl font-bold text-blue-600">iTLive</span>
+            <span className="text-2xl font-bold text-blue-600">Book-Time</span>
             <div className="text-xs bg-blue-600 text-white px-1 rounded">®</div>
           </div>
 
@@ -136,7 +136,7 @@ const Boglanish = () => {
                   </svg>
                 </div>
                 <h3 className={`text-xl font-bold mb-2 ${qoraTema ? "text-white" : "text-gray-900"}`}>Telefon</h3>
-                <p className={`${qoraTema ? "text-gray-300" : "text-gray-600"}`}>+998(97) 566 50 50</p>
+                <p className={`${qoraTema ? "text-gray-300" : "text-gray-600"}`}>+998(88) 373 03 31</p>
               </div>
 
               {/* Email */}
@@ -158,7 +158,7 @@ const Boglanish = () => {
                 <h3 className={`text-xl font-bold mb-2 ${qoraTema ? "text-white" : "text-gray-900"}`}>
                   Elektron Pochta
                 </h3>
-                <p className={`${qoraTema ? "text-gray-300" : "text-gray-600"}`}>itliveguliston2023@gmail.com</p>
+                <p className={`${qoraTema ? "text-gray-300" : "text-gray-600"}`}>nematjonovmuhammadyahyo1@gmail.com</p>
               </div>
 
               {/* Address */}
@@ -185,9 +185,9 @@ const Boglanish = () => {
                 </div>
                 <h3 className={`text-xl font-bold mb-2 ${qoraTema ? "text-white" : "text-gray-900"}`}>Manzil</h3>
                 <p className={`${qoraTema ? "text-gray-300" : "text-gray-600"}`}>
-                  Manzil: Sirdaryo vil, Guliston sh,1-mavze,
+                  Manzil:o'zing top,
                   <br />
-                  IT LIVE ACADEMY
+                  Book-Time
                 </p>
               </div>
             </div>
@@ -312,7 +312,7 @@ const Boglanish = () => {
       >
         <div className="max-w-7xl mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
-            <span className="text-2xl font-bold text-blue-600">iTLive</span>
+            <span className="text-2xl font-bold text-blue-600">Book-Time</span>
             <div className="text-xs bg-blue-600 text-white px-1 rounded">®</div>
           </div>
           <p className={`mb-6 ${qoraTema ? "text-gray-300" : "text-gray-600"}`}>Biz bilan muvaffaqiyatga erishling</p>
@@ -341,7 +341,7 @@ const Boglanish = () => {
           </div>
 
           <div className={`text-xs ${qoraTema ? "text-gray-500" : "text-gray-400"}`}>
-            <p>© ITLIVE 2024. Barcha huquqlar himoyalangan</p>
+            <p>© Book-Time 2025. Barcha huquqlar himoyalangan</p>
             <p className="mt-2">
               <a href="#" className="hover:text-blue-600 transition-colors">
                 Xavfsizlik
