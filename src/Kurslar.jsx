@@ -377,7 +377,9 @@ const Asosiy = () => {
 
           <div className="flex justify-center gap-4 mb-8">
             <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              <Link to="/mentor">
               Bog'lanish
+              </Link>
             </button>
           </div>
 
